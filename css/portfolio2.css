@@ -1,0 +1,33 @@
+body {
+  padding: 10px 150px 10px 150px;  
+  background-color: lightsteelblue;
+  background-image: url("../images/pridebackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  }
+  
+  .navbar-brand {
+    background-color: lightsteelblue;
+    margin-left: 30px;
+    font-weight: bolder;
+  }
+  
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-img-top {
+  height: 400px;
+}
+
+.card{
+  border: 3px solid red;
+}
+
+

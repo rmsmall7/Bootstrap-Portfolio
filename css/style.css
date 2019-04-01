@@ -1,10 +1,14 @@
 
 body {
 padding: 10px 150px 10px 150px;  
+background-color: lightsteelblue;
+background-image: url("../images/pridebackground.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
 }
-#main_head {
-  border: black solid 2px;
-}
+
+
+
 
 #box {
   border: black solid 2px;
@@ -15,7 +19,65 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:grey;
+  background-color: lightsteelblue;
   color: white;
   text-align: center;
 }
+
+.navbar-brand {
+  background-color: lightsteelblue;
+  margin-left: 30px;
+  font-weight: bolder;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card {
+    margin:auto;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.card-img {
+  padding-top: 35px;
+}
+
+.card{
+  border: 2px solid black;
+}
+
+.media {
+  margin-top: 80px;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.media-body {
+  padding-top: 30px;
+}
+
+#pic2 {
+  height: 300px;
+  width: 200px;
+}
+
+#family {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+
